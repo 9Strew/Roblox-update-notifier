@@ -2,7 +2,7 @@ const fs = require('fs')
 const express = require('express')
 const app = express()
 const axios = require('axios').default
-let dwebhook = "https://discord.com/api/webhooks/885976835307995216/UUNExu1sbV3OIpVygfv_RlDHSMWKshUS3xHW4SW7-ttOT8qg5Uof8Phn9c97ofi5pfoX"
+let dwebhook = ""
 
 setInterval(async () => {
     const currentRoblox = await axios.get('http://setup.roblox.com/version')
